@@ -1,0 +1,94 @@
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    }
+
+body{
+    background: var(--white-color);
+    font-family: Roboto;
+}
+    
+ul{
+    list-style: none;
+}
+
+/* header */
+.logo-text-main{
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--accent-color);
+}
+.logo-text-sub{
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--black-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+/* site-nav */
+.site-nav .link{
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover, .site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.contact-data .link{
+    color :var(--secondary-text-color); 
+}
+
+.contact-data .link:hover{
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero-title{
+    font-family: 'Roboto';
+    /* font-style: normal;
+    font-weight: 900;
+    font-size: 44;
+    line-height: 60;
+    color: var(--white-color);  */
+}
+
+.button{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* section */
+
+.section-title{
+    color: var(--primary-text-color);
+}
+
+.description{
+    color: var(--secondary-text-color);
+}
+
+/* footer */
+.contact-list{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /* color: var(--title-white-color)7; */
+}
+
+.contact-item{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        color: rgba (255, 255, 255, 0.6);
+}
+
+
+
