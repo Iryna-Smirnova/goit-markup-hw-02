@@ -40,7 +40,7 @@ a {
 
 /* nav */
 
-.header-list .contact-list .link{
+.header-nav-list .header-information-list .link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -48,24 +48,24 @@ a {
     cursor: pointer;
 }
 
-.header-list .link{
+.header-nav-list .link{
     color: var(--primary-text-color);
 }
 
-.header-list .link:hover, .header-list .link:focus{
+.header-nav-list .link:hover, .header-nav-list .link:focus{
     color: var(--primary-accent-color);
 }
 
-.contact-list .link{
+.header-information-list .link{
     color: var(--primary-text-color);
 }
 
-.contact-list .link:hover{
-    color: var(--primary-accent-color);
-}
+.header-information-list .link:hover{
+    color: var(--primary-accent-color);}
 
-.current-page:active{
-    color: var(--primary-accent-color);
+a.current-page:link,
+a.current-page:visited {
+color: var(--primary-accent-color);
 }
 
 /* hero */
@@ -83,12 +83,9 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-    
+ 
 .button{
-    font-family: inherit;
-}
-
-.button{
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -98,6 +95,13 @@ a {
 .button.primary{ 
     background-color: var(--primary-accent-color);
     color: var(--white-color);
+}
+
+.button-filter{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 }
 
 /* section */
@@ -133,6 +137,10 @@ a {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.19;
+}
+
+.section-team{
+    background: #F5F4FA
 }
 
 .visually-hidden{
@@ -184,6 +192,7 @@ a {
     line-height: 1.88;
 }
 
+
 /* footer */
 
 .footer{
@@ -215,7 +224,7 @@ a {
 }
 
 .contact-item{
-    color: rgba(255, 255, 255, 60);
+    color: var(--secondary-text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
