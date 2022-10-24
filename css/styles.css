@@ -40,7 +40,7 @@ a {
 
 /* nav */
 
-.header-nav-list .header-information-list .link{
+.link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -48,19 +48,19 @@ a {
     cursor: pointer;
 }
 
-.header-nav-list .link{
+.nav-link{
     color: var(--primary-text-color);
 }
 
-.header-nav-list .link:hover, .header-nav-list .link:focus{
+.nav-link:hover, .nav-link:focus{
     color: var(--primary-accent-color);
 }
 
-.header-information-list .link{
+.info-link{
     color: var(--primary-text-color);
 }
 
-.header-information-list .link:hover{
+.info-link:hover{
     color: var(--primary-accent-color);}
 
 a.current-page:link,
@@ -214,7 +214,7 @@ color: var(--primary-accent-color);
     color: var(--white-color);
 }
 
-.contact-list{
+.address-list{
     color: var(--white-color);
     font-family: 'Roboto';
     font-style: normal;
@@ -223,7 +223,7 @@ color: var(--primary-accent-color);
     line-height: 1.71;
 }
 
-.contact-item{
+.contact-list{
     color: var(--secondary-text-color);
     font-family: 'Roboto';
     font-style: normal;
@@ -233,7 +233,7 @@ color: var(--primary-accent-color);
     cursor: pointer;
 }
      
-.contact-item:hover {
+.contact-list:hover {
     color: var(--primary-accent-color);
 }
 
